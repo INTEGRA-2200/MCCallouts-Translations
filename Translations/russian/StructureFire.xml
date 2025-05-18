@@ -1,46 +1,46 @@
 <StructureFire>
-    <CalloutMessage>~r~~h~Structure Fire~h~~s~</CalloutMessage>
-    <Task>Drive to the ~r~burning building Code 3!</Task>
+    <CalloutMessage>~r~~h~Пожар в здании~h~~s~</CalloutMessage>
+    <Task>Следуйте к ~r~горящему зданию по коду 3!</Task>
     <State>
         <Extinguish>
-            <Text>~o~Extinguish the fire yourself ~r~or call the fire department!</Text>
-            <Text>All fires have been extinguished.</Text>
+            <Text>~o~Потушите пожар самостоятельно ~r~или вызовите пожарных!</Text>
+            <Text>Все очаги возгорания ликвидированы.</Text>
         </Extinguish>
         <Investigate>
-            <Text>Now search the scene for evidence relating to the fire. Press ~y~{Y}~s~ to pick it up.</Text>
-            <Text>We have received infos on the whereabouts of the evidence.</Text>
-            <Text>You found evidence.</Text>
+            <Text>Теперь осмотрите место происшествия в поисках улик, связанных с пожаром. Нажмите ~y~{Y}~s~, чтобы подобрать.</Text>
+            <Text>Мы получили информацию о предполагаемом местонахождении улик.</Text>
+            <Text>Вы нашли улику.</Text>
         </Investigate>
         <Manhunt>
-            <Text>Callers have provided us with the approximate location of a possible suspect.</Text>
+            <Text>Очевидцы сообщили примерное местоположение возможного подозреваемого.</Text>
         </Manhunt>
         <End>
-            <Text>Structure Fire has ended.</Text>
+            <Text>Вызов «Пожар в здании» завершён.</Text>
         </End>
     </State>
     <Scenario>
         <SecureSceneOnly>
-            <Text>Press ~{End}~ to end the callout.</Text>
+            <Text>Нажмите ~{End}~, чтобы завершить вызов.</Text>
         </SecureSceneOnly>
         <NoFire>
-            <Text>Luckily there is no fire at this location.</Text>
+            <Text>К счастью, по этому адресу пожара нет.</Text>
         </NoFire>
     </Scenario>
     <SuspectAction>
         <Ignoring>
-            <Text>The suspect seems ~y~unimpressed~s~ by your appearance.</Text>
+            <Text>Подозреваемый выглядит ~y~безразличным~s~ к вашему появлению.</Text>
         </Ignoring>
         <Shooting>
-            <Text>~y~You: ~r~Shots fired!</Text>
+            <Text>~y~Вы: ~r~Огонь по нам!</Text>
         </Shooting>
         <Surrender>
-            <Text>The suspect is ~g~surrendering.</Text>
+            <Text>Подозреваемый ~g~сдаётся.</Text>
         </Surrender>
         <Pursuit>
-            <Text>~y~You:~s~ We have a ~o~pursuit!</Text>
+            <Text>~y~Вы:~s~ У нас ~o~погоня!</Text>
         </Pursuit>
     </SuspectAction>
     <FireProgressBar>
-        <Text>~h~Fires extinguished~h~</Text>
+        <Text>~h~Пожары потушены~h~</Text>
     </FireProgressBar>
 </StructureFire>
